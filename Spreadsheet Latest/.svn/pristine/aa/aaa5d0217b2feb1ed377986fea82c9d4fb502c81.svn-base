@@ -1,0 +1,309 @@
+﻿namespace SpreadsheetGUI
+{
+    partial class Axel
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.NewMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.UndoMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.CellName = new System.Windows.Forms.TextBox();
+            this.CellContentsLabel = new System.Windows.Forms.Label();
+            this.CellLabel = new System.Windows.Forms.Label();
+            this.CellContents = new System.Windows.Forms.TextBox();
+            this.Value = new System.Windows.Forms.Label();
+            this.ValueText = new System.Windows.Forms.TextBox();
+            this.spreadsheetPanel1 = new SS.SpreadsheetPanel();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.fontDialog = new System.Windows.Forms.FontDialog();
+            this.menuStrip1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.helpToolStripMenuItem,
+            this.settingsToolStripMenuItem,
+            this.UndoMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1110, 33);
+            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.NewMenuItem,
+            this.toolStripSeparator1,
+            this.saveToolStripMenuItem,
+            this.saveAsToolStripMenuItem1,
+            this.toolStripSeparator,
+            this.openToolStripMenuItem,
+            this.closeToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(50, 29);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // NewMenuItem
+            // 
+            this.NewMenuItem.Name = "NewMenuItem";
+            this.NewMenuItem.ShowShortcutKeys = false;
+            this.NewMenuItem.Size = new System.Drawing.Size(146, 30);
+            this.NewMenuItem.Text = "New";
+            this.NewMenuItem.ToolTipText = "Opens a new spreadsheet window!";
+            this.NewMenuItem.Click += new System.EventHandler(this.NewMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(143, 6);
+            // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(146, 30);
+            this.saveToolStripMenuItem.Text = "Save ";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // saveAsToolStripMenuItem1
+            // 
+            this.saveAsToolStripMenuItem1.Name = "saveAsToolStripMenuItem1";
+            this.saveAsToolStripMenuItem1.Size = new System.Drawing.Size(146, 30);
+            this.saveAsToolStripMenuItem1.Text = "Save As";
+            this.saveAsToolStripMenuItem1.Click += new System.EventHandler(this.saveAsToolStripMenuItem1_Click);
+            // 
+            // toolStripSeparator
+            // 
+            this.toolStripSeparator.Name = "toolStripSeparator";
+            this.toolStripSeparator.Size = new System.Drawing.Size(143, 6);
+            // 
+            // openToolStripMenuItem
+            // 
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(146, 30);
+            this.openToolStripMenuItem.Text = "Open";
+            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
+            // 
+            // closeToolStripMenuItem
+            // 
+            this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(146, 30);
+            this.closeToolStripMenuItem.Text = "Close";
+            this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(61, 29);
+            this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
+            // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fontsToolStripMenuItem});
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(88, 29);
+            this.settingsToolStripMenuItem.Text = "Settings";
+            // 
+            // fontsToolStripMenuItem
+            // 
+            this.fontsToolStripMenuItem.Name = "fontsToolStripMenuItem";
+            this.fontsToolStripMenuItem.Size = new System.Drawing.Size(128, 30);
+            this.fontsToolStripMenuItem.Text = "Fonts";
+            this.fontsToolStripMenuItem.Click += new System.EventHandler(this.fontsToolStripMenuItem_Click);
+            // 
+            // UndoMenuItem
+            // 
+            this.UndoMenuItem.Name = "UndoMenuItem";
+            this.UndoMenuItem.Size = new System.Drawing.Size(68, 29);
+            this.UndoMenuItem.Text = "Undo";
+            this.UndoMenuItem.Click += new System.EventHandler(this.UndoMenuItem_Click);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 5;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.51852F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.48148F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 814F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 73F));
+            this.tableLayoutPanel1.Controls.Add(this.CellName, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.CellContentsLabel, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.CellLabel, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.CellContents, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.Value, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.ValueText, 3, 1);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 37);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1110, 80);
+            this.tableLayoutPanel1.TabIndex = 3;
+            // 
+            // CellName
+            // 
+            this.CellName.Enabled = false;
+            this.CellName.Location = new System.Drawing.Point(46, 3);
+            this.CellName.Name = "CellName";
+            this.CellName.Size = new System.Drawing.Size(49, 26);
+            this.CellName.TabIndex = 0;
+            // 
+            // CellContentsLabel
+            // 
+            this.CellContentsLabel.AutoSize = true;
+            this.CellContentsLabel.Location = new System.Drawing.Point(103, 0);
+            this.CellContentsLabel.Name = "CellContentsLabel";
+            this.CellContentsLabel.Size = new System.Drawing.Size(104, 20);
+            this.CellContentsLabel.TabIndex = 2;
+            this.CellContentsLabel.Text = "Cell Contents";
+            // 
+            // CellLabel
+            // 
+            this.CellLabel.AutoSize = true;
+            this.CellLabel.Location = new System.Drawing.Point(3, 0);
+            this.CellLabel.Name = "CellLabel";
+            this.CellLabel.Size = new System.Drawing.Size(35, 20);
+            this.CellLabel.TabIndex = 3;
+            this.CellLabel.Text = "Cell";
+            // 
+            // CellContents
+            // 
+            this.CellContents.Location = new System.Drawing.Point(225, 3);
+            this.CellContents.Name = "CellContents";
+            this.CellContents.Size = new System.Drawing.Size(800, 26);
+            this.CellContents.TabIndex = 1;
+            this.CellContents.TextChanged += new System.EventHandler(this.CellContents_TextChanged);
+            this.CellContents.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CellContents_KeyDown);
+            // 
+            // Value
+            // 
+            this.Value.AutoSize = true;
+            this.Value.Location = new System.Drawing.Point(103, 37);
+            this.Value.Name = "Value";
+            this.Value.Size = new System.Drawing.Size(50, 20);
+            this.Value.TabIndex = 5;
+            this.Value.Text = "Value";
+            // 
+            // ValueText
+            // 
+            this.ValueText.Enabled = false;
+            this.ValueText.Location = new System.Drawing.Point(225, 40);
+            this.ValueText.Name = "ValueText";
+            this.ValueText.Size = new System.Drawing.Size(800, 26);
+            this.ValueText.TabIndex = 4;
+            // 
+            // spreadsheetPanel1
+            // 
+            this.spreadsheetPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.spreadsheetPanel1.Location = new System.Drawing.Point(4, 125);
+            this.spreadsheetPanel1.Name = "spreadsheetPanel1";
+            this.spreadsheetPanel1.Size = new System.Drawing.Size(1107, 614);
+            this.spreadsheetPanel1.TabIndex = 4;
+            // 
+            // saveFileDialog
+            // 
+            this.saveFileDialog.CheckPathExists = false;
+            this.saveFileDialog.DefaultExt = "Sprd";
+            this.saveFileDialog.FileName = "Untitled";
+            this.saveFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog_FileOk);
+            // 
+            // openFileDialog
+            // 
+            this.openFileDialog.FileName = "Untitled";
+            this.openFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog_FileOk);
+            // 
+            // Axel
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1110, 735);
+            this.Controls.Add(this.spreadsheetPanel1);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Axel";
+            this.Text = "Untitled";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Axel_FormClosing);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem NewMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TextBox CellName;
+        private System.Windows.Forms.TextBox CellContents;
+        private SS.SpreadsheetPanel spreadsheetPanel1;
+        private System.Windows.Forms.Label CellContentsLabel;
+        private System.Windows.Forms.Label CellLabel;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
+        private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
+        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.Label Value;
+        private System.Windows.Forms.TextBox ValueText;
+        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fontsToolStripMenuItem;
+        private System.Windows.Forms.FontDialog fontDialog;
+        private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem UndoMenuItem;
+
+        
+    }
+}
+

@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SpreadsheetGUI
+{
+
+
+    public partial class Axel : Form
+    {
+
+        /// <summary>
+        /// Our Axel Spreadsheet Needs
+        /// </summary>
+        public Axel()
+        {
+            InitializeComponent();
+            this.KeyPreview = true; // Get Keyboard Input
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void spreadsheetPanel1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void NewMenuItem_Click(object sender, EventArgs e)
+        {
+            // Tell the application context to run the form on the same
+            // thread as the other forms.
+            DemoApplicationContext.getAppContext().RunForm(new Axel());
+        }
+    }
+}

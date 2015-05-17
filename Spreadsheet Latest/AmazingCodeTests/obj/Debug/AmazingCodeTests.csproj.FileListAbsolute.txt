@@ -1,0 +1,4 @@
+C:\Users\Kc\Documents\Visual Studio 2013\Projects\PS6\AmazingCodeTests\bin\Debug\AmazingCodeTests.dll
+C:\Users\Kc\Documents\Visual Studio 2013\Projects\PS6\AmazingCodeTests\bin\Debug\AmazingCodeTests.pdb
+C:\Users\Kc\Documents\Visual Studio 2013\Projects\PS6\AmazingCodeTests\obj\Debug\AmazingCodeTests.dll
+C:\Users\Kc\Documents\Visual Studio 2013\Projects\PS6\AmazingCodeTests\obj\Debug\AmazingCodeTests.pdb

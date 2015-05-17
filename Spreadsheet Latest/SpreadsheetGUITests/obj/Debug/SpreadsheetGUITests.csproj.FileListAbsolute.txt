@@ -1,0 +1,5 @@
+C:\Users\Kc\Documents\Visual Studio 2013\Projects\PS6\SpreadsheetGUITests\bin\Debug\SpreadsheetGUITests.dll
+C:\Users\Kc\Documents\Visual Studio 2013\Projects\PS6\SpreadsheetGUITests\bin\Debug\SpreadsheetGUITests.pdb
+C:\Users\Kc\Documents\Visual Studio 2013\Projects\PS6\SpreadsheetGUITests\obj\Debug\SpreadsheetGUITests.csprojResolveAssemblyReference.cache
+C:\Users\Kc\Documents\Visual Studio 2013\Projects\PS6\SpreadsheetGUITests\obj\Debug\SpreadsheetGUITests.dll
+C:\Users\Kc\Documents\Visual Studio 2013\Projects\PS6\SpreadsheetGUITests\obj\Debug\SpreadsheetGUITests.pdb

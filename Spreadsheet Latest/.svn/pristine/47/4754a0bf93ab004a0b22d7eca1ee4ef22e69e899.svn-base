@@ -1,0 +1,76 @@
+﻿// Made by Aaron Hsu
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SpreadsheetUtilities;
+using System.Text.RegularExpressions;
+using SS;
+
+namespace SS
+{
+    class SpCell
+    {
+
+        Object contents; // Contents stored in the SpCell
+        String name; // Name of cell : Not very used in PS4 but made just incase we use it in the future
+        Object Val; // A value used to store the numerical value of the cell
+        
+        /// <summary>
+        /// A Spreadsheet cell that can be used to take in a double and uses that double as the value
+        /// </summary>
+        public SpCell(string name_, Double contents_)
+        {
+            name = name_;
+            contents = contents_; // We do not need a check due to it being check in spreadsheet
+            Val = contents_;  // The string will just be the contents as defined by a spreadsheet
+            // These next ifs are used to set the Val
+        }
+
+        /// <summary>
+        /// A Spreadsheet cell that can be used to take in a double and uses that double as the value
+        /// </summary>
+        public SpCell(string name_, String contents_)
+        {
+            name = name_;
+            contents = contents_; // We do not need a check due to it being check in spreadsheet
+            Val = contents_; // The string will just be the contents as defined by a spreadsheet
+        }
+
+        /// <summary>
+        /// A Spreadsheet cell that can be used to take in a double and uses that double as the value
+        /// </summary>
+        public SpCell(string name_, Formula contents_, Object Value)
+        {
+            name = name_;
+            contents = contents_; // We do not need a check due to it being check in spreadsheet
+            Val = Value;
+            // These next ifs are used to set the Val
+        }
+
+        /// <summary>
+        /// A getter and setter for the formula contents of the cell
+        /// </summary>
+        public Object content
+        {
+            get
+            { // Returns the formula contents of cell
+                return contents;
+            }
+
+        }
+
+        /// <summary>
+        /// A value is the total "worth" of the contents
+        /// </summary>
+        public Object Value
+        {
+            get
+            {
+                return Val; // The value of the contents
+            }
+        }
+    }
+}
+

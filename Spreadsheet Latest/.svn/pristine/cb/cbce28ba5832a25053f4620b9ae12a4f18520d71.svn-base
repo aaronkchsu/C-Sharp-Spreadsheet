@@ -1,0 +1,28 @@
+﻿Brought to you by Aaron Hsu the date is currently 9/26/2014 
+This project was taken from a bunch of skeletons and added on to make a working thing...
+YEA!!
+Sup bro you have stumbled upon greatness with this very class. Hehehe, Well you see after hours and hours of work you are in the witness
+of a class that can do calculations while having cells dependent with each other!
+
+============================================================
+ABOUT THE CREATOR:
+This was so annoying to program. I sort of want to punch myself right now it is so late hahaha.
+wow spent hours coding this hahahaahha...
+=============================================================================================================================================
+This GUI IS VERY HARD TO USE. It is also a little inefficient!!
+
+
+=============================================================================================================================================
+=============================================================================================================================================
+
+11/1/2014 - The creation of the GUI was designed with three text boxes on top. The text boxes on top make it easier for the User to see what is happening.
+- new button added to GUI design.
+11/2/2014 - I made the set contens work in the GUI
+11/3/2014 - Creation of a save file menu was made. save menu added. Open menu added.
+Open dialog takes the file and makes a new spreadsheet out of it. The model of data is then referenced to the new spreadsheet
+11/4/2014 - Fixed Formula bug, Fixed open dialogue bug
+11/5/2014 - Played into changing various small techniques and added the bunches of small tools to build into the major 
+strengths of the program and it works very well sweet okay
+- I also Fixed the circular exception where it gets reverted back if a circular exception gets asserted
+- Once a cell changes that has dependents the cells will be recalcualted
+-

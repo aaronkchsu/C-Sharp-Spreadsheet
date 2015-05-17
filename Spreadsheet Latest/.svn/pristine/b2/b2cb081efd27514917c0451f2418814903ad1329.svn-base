@@ -1,0 +1,54 @@
+﻿Brought to you by Aaron Hsu the date is currently 9/26/2014  -- u0784935!!
+
+This project was taken from a bunch of skeletons and added on to make a working thing...
+YEA!!
+Sup bro you have stumbled upon greatness with this very class. Hehehe, Well you see after hours and hours of work you are in the witness
+of a class that can do calculations while having cells dependent with each other!
+
+============================================================
+ABOUT THE CREATOR:
+This was so annoying to program. I sort of want to punch myself right now it is so late hahaha.
+wow spent hours coding this hahahaahha...
+=============================================================================================================================================
+This GUI IS VERY HARD TO USE. It is also a little inefficient!! BUT! IT took a long time to make so it must be worth something...
+Take the time to use the file menus. some functionalities works very well! It is very hard to break
+There are also instances where formula error is passed and in this instance we make sure
+that an error is displayed. We do not support adding strings in this model. Also It is possible to
+insert equations where you can add cells. The = sign initilizes this. Play around with the
+arrow keys the help select cells. you need to press enter for the correct display to work.
+=============================================================================================================================================
+=============================================================================================================================================
+Functionality!!!! You can use arrow to move around on the cell. There are save, save as and open functions. One can close the tab and
+it will warn you if you have not saved yet! Also you can undo typing in boxes.. There is also the support of some fonts in the spreadsheet!
+One can also use the = sign to add equations. Dependencies will change according to cells!!
+Doubles entered into the spreadsheet will create 
+
+11/1/2014 - The creation of the GUI was designed with three text boxes on top. The text boxes on top make it easier for the User to see what is happening.
+- new button added to GUI design.
+11/2/2014 - I made the set contens work in the GUI
+11/3/2014 - Creation of a save file menu was made. save menu added. Open menu added.
+Open dialog takes the file and makes a new spreadsheet out of it. The model of data is then referenced to the new spreadsheet
+11/4/2014 - Fixed Formula bug, Fixed open dialogue bug
+-SPENT HOURS on an exception being thrown at the lookup variable
+-Also had a problem with it deleting a character when I enter a dependency and this was caused by
+-My previous functionlity of the circular dependency reverting back to previous area
+- Was able to add a useful help message that you must check out it is amazing!
+- ORGANIZED my model and condensed good code.. there was extra bits of code that didnt need to be there
+- I took the time to understand my code even more so that
+11/5/2014 - Played into changing various small techniques and added the bunches of small tools to build into the major 
+strengths of the program and it works very well sweet okay  
+- I also Fixed the circular exception where it gets reverted back if a circular exception gets asserted
+- Once a cell changes that has dependents the cells will be recalcualted
+- Change the fonts of the spreadsheet has been added does not support a lot of fonts
+- The ability to revert back to your previous cell if a formula entered is wonky
+- The ability to Undo has been added!!
+-ADDED A UNDO BUTTON THAT SAVES YOUR ACTIONS!!! 
+-THIS BUTTON IS A TINY BIT GLITCHY but spent a while on it it works
+-fairly well for a undo button! try it out!
+-Attempting to modify my backspace functionality in the way that you can delete a whole string of cells
+-TESTs having problem where all actions are not recorded after debugging hopping the tests run!!
+
+In the future we are planning on making this function in a optimal manner better then excel. The 
+reason why we are not there yet because excel people are cheaters. Thats okay you are awesome for
+being interest in this. Save the world with this program and remember to do it in style...
+Yes in style.. 

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CodedUITestProject1
+</name>
+</assembly>
+<members>
+<member name="M:CodedUITestProject1.CodedUITestProject1.UIMap.AssertMethod1">
+	<summary>
+AssertMethod1 - Use 'AssertMethod1ExpectedValues' to pass parameters into this method.
+</summary>
+</member><member name="M:CodedUITestProject1.CodedUITestProject1.UIMap.RecordedMethod1">
+	<summary>
+RecordedMethod1
+</summary>
+</member><member name="F:CodedUITestProject1.CodedUITestProject1.AssertMethod1ExpectedValues.UIValueClientControlType">
+	<summary>
+Verify that the 'ControlType' property of 'Value' client equals 'Client'
+</summary>
+</member><member name="T:CodedUITestProject1.CodedUITestProject1.AssertMethod1ExpectedValues">
+	<summary>
+Parameters to be passed into 'AssertMethod1'
+</summary>
+</member><member name="P:CodedUITestProject1.CodedUITest1.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member>
+</members>
+</doc>

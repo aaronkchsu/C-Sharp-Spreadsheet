@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SpreadsheetTests</name>
+    </assembly>
+    <members>
+        <member name="T:SpreadsheetTests.SpreadTests">
+            <summary>
+            This class is used to test the baloneys out of the spreadsheet solution and all its containing classes
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.checkName">
+            <summary>
+            A test case that checks valid name function
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.checkName1">
+            <summary>
+            A test case that checks valid name function
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.checkName3">
+            <summary>
+            A test case that checks valid name function
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.checkName4">
+            <summary>
+            A test case that checks valid name function
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.checkName5">
+            <summary>
+            A test case that checks valid name function
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.GetCellContents">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.GetCellContents1">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.GetCellContents2">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.GetCellContents3">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContents">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContents2">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests that A1 and a1 should both fit in the cell
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContents3">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests that A1 can be overidden
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContents4">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests that strings can be inserter
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContents5">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests that single characters are valid variables
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContents6">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests that single characters are valid variables
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContents7">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This teststhe first case of
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContentsSet">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests the case where we test the sets that get based by set Cell contents of A1 should be C1 and B1
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContentsSet1">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests the case where we test the sets that get based by set Cell contents of A1 should be C1 and B1
+            For Formula
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SetCellContentsSet2">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests the case where we test the sets that get based by set Cell contents of A1 should be C1 and B1
+            For string
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.CircularErrorTest">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests the case where we test the sets that get based by set Cell contents of A1 should be C1 and B1
+            For string
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.CircularErrorTest2">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests the case where we test the sets that get based by set Cell contents of A1 should be C1 and B1
+            For string
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.CircularErrorTestDouble">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests the case where we test the sets that get based by set Cell contents of A1 should be C1 and B1
+            For string
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.CircularErrorTestFormula">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests the case where we test the sets that get based by set Cell contents of A1 should be C1 and B1
+            For string
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.CircularErrorTest3">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests the case where we test the sets that get based by set Cell contents of A1 should be C1 and B1
+            For string
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.CircularErrorTest4">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            This tests the case where we test the sets that get based by set Cell contents of A1 should be C1 and B1
+            For string
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.InvalidName">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.InvalidName2">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.InvalidName3">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.InvalidName4">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            Tests the null case
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.InvalidName6">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            Tests the null case for formula
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.InvalidName5">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            Tests the null case for double
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.InvalidName7">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            Tests the null case
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.InvalidName8">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            Tests the null case for formula
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.InvalidName9">
+            <summary>
+            A test case that checks an average case for the get cell contents method
+            Tests the null case for string
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.EmptyReturnTest">
+            <summary>
+            Tests the active cells method
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.StringOverlapTest">
+            <summary>
+            This Tests what happens if adding onto the same cell works with text
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.StringOverlapTest2">
+            <summary>
+            This Tests what happens if adding onto the same cell works with text is an invalid cell
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.StringOverlapTest3">
+            <summary>
+            This Tests what happens if adding onto the same cell works with text is an invalid cell
+            THIS TESTS EMPTY STRING ENTERED INTO E1
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.SaveTest">
+            <summary>
+            Let us start testing the save functiosn for the spreadsheet
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.LoadTest3">
+            <summary>
+            TESTS THE VERSION CONTROL
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest">
+            <summary>
+            Let us start testing the save functiosn for the spreadsheet
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest4">
+            <summary>
+            Let us start testing the save functiosn for the spreadsheet
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest6">
+            <summary>
+            TESTS GET CELL CONTEST
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest7">
+            <summary>
+            TESTS MORE ERRORS
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest10">
+            <summary>
+            TESTS MORE ERRORS
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest11">
+            <summary>
+            TESTS MORE ERRORS
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest12">
+            <summary>
+            TESTS MORE ERRORS
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest13">
+            <summary>
+            TESTS MORE ERRORS
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest14">
+            <summary>
+            TESTS MORE ERRORS
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest9">
+            <summary>
+            TESTS MORE ERRORS
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest15">
+            <summary>
+            TESTS MORE ERRORS OF ISVALID
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest16">
+            <summary>
+            TESTS MORE ERRORS OF ISVALID
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest17">
+            <summary>
+            TESTS MORE ERRORS OF ISVALID
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadTests.ErrorTest18">
+            <summary>
+            TESTS MORE ERRORS OF ISVALID
+            </summary>
+        </member>
+    </members>
+</doc>
